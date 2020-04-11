@@ -1,14 +1,39 @@
 @charset "UTF-8";
 
-h1, h2, h3 {font-family: 'Oswald', sans-serif;
-}
-
-
-
 body {
-    background-image: url(../images/Shawn%20Mendes%20Cover.jpg);
-    color: rgba(180,180,180,1.00);
+    color: rgba(209,193,180,1.00);
     height: 1000;
-    font-size: 11pt;		
+    font-size: 11pt;
+    font-family: 'Oswald', sans-serif;
+    background-position: 81% 9%;
+    background-color: rgba(28,29,24,1.00);
 }
 
+navbar {
+    width: 11px;
+    min-width: 18px;
+    min-height: 26px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 42px;
+}
+body section {
+    background-image: url(../images/ShawnMendes-blog.png);
+    height: 197px;
+    min-width: 86px;
+    background-repeat: repeat-x;
+    background-size: 313px auto;
+    background-position: 2% 0%;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
