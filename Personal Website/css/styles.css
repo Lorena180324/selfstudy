@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+h1, h2, h3 {font-family: 'Oswald', sans-serif;
+}
+
+
+
+body {
+    background-image: url(../images/Shawn%20Mendes%20Cover.jpg);
+    color: rgba(180,180,180,1.00);
+    height: 1000;
+    font-size: 11pt;		
+}
+
