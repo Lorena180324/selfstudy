@@ -2,7 +2,7 @@
 
 body {
     color: rgba(209,193,180,1.00);
-    height: 1000;
+    height: 1000px;
     font-size: 11pt;
     font-family: 'Oswald', sans-serif;
     background-position: 81% 9%;
@@ -32,7 +32,8 @@ body section {
 }
 
 /* Clear floats after the columns */
-.row:after {
+
+.row {
   content: "";
   display: table;
   clear: both;
