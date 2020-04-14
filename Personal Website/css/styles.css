@@ -26,11 +26,6 @@ body section {
     background-size: 313px auto;
     background-position: 2% 0%;
 }
-.column {
-  float: left;
-  width: 50%;
-
-}
 body footer {
     background-color: rgba(105,98,90,0.91);
     margin-top: 41px;
