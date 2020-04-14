@@ -43,3 +43,11 @@ body footer {
 h4 {
     color: rgba(200,185,171,1.00);
 }
+.col-lg-6.col-md-6.col-sm-12 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    padding-left: 0px;
+    left: 0px;
+}
