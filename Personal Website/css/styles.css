@@ -29,21 +29,7 @@ body section {
 .column {
   float: left;
   width: 50%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}.row .column .text-center.text-capitalize {
-}
-.row .column p {
-    height: 0px;
-    margin-top: 9px;
-    margin-left: 23px;
-    margin-right: 46px;
-    padding-left: 5px;
 }
 body footer {
     background-color: rgba(105,98,90,0.91);
